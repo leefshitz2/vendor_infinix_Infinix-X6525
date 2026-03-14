@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <add-resource name="virtual_spn_conf_by_efpnn" type="array"/>
+    <string-array name="virtual_spn_conf_by_efpnn">
+        <item>26006Mobile Vikings=Mobile Vikings</item>
+        <item>26203Ortel D=Ortel D</item>
+        <item>26203MEDIONmobile=MEDIONmobile</item>
+        <item>26203Willkommen=Willkommen</item>
+        <item>23207HoT=HoT</item>
+        <item>23430EE=EE</item>
+        <item>33450AT&amp;T=AT&amp;T</item>
+        <item>33450AT&amp;T 4G=AT&amp;T 4G</item>
+        <item>334050AT&amp;T=AT&amp;T</item>
+        <item>334050AT&amp;T 4G=AT&amp;T 4G</item>
+        <item>51011LIVE.ON=LIVE.ON</item>
+        <item>52017K4=K4</item>
+        <item>738002GTT-WE RISE=GTT-WE RISE</item>
+    </string-array>
+</resources>

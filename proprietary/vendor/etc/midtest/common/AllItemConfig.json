@@ -1,0 +1,692 @@
+{
+  "debugModeGroup": {
+    "support": true,
+    "group": [
+      {
+        "name": "driver_group",
+        "style": "list"
+      },
+      {
+        "name": "media_group",
+        "style": "list"
+      },
+      {
+        "name": "camera_group",
+        "style": "list"
+      },
+      {
+        "name": "wcn_group",
+        "style": "list"
+      },
+      {
+        "name": "connectivity_group",
+        "style": "list"
+      },
+      {
+        "name": "other_group",
+        "style": "list"
+      }
+    ]
+  },
+
+  "allItemConfig": {
+
+    "--------------1-------------": "-------------------- DISPLAY ----------------",
+    "BackLight": {
+      "support":true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.itemnew.display.BacklightActivity"
+        }
+      ],
+      "debugMode": {
+        "group": "",
+        "optional": false,
+        "params": {
+
+        }
+      }
+    },
+
+    "Color": {
+      "support":true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.itemnew.display.ColorActivity",
+          "tranCmdSupport": true
+        }
+      ]
+    },
+
+    "TouchScreen": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.touch.TouchTestActivity"
+        }
+      ]
+    },
+
+    "TwoPointer": {
+      "support": false,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.touch.TwopointerTestActivity"
+        }
+      ]
+    },
+
+    "--------------2-------------": "-------------------- AUDIO ----------------",
+    "Mic": {
+      "support":true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.audio.MicrophoneTestActivity"
+        }
+      ]
+    },
+
+    "Speaker": {
+      "support":true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.itemnew.audio.SpeakerReceiverActivity"
+        }
+      ]
+    },
+
+    "Receiver": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.itemnew.audio.SpeakerReceiverActivity"
+        }
+      ]
+    },
+
+    "Headset": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.audio.EarphoneTestActivity2"
+        }
+      ]
+    },
+
+
+    "--------------3-------------": "-------------------- SENSOR ----------------",
+    "Fingerprint": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.itemnew.sensor.FingerprintActivity",
+          "tranCmdSupport": true
+        }
+      ],
+      "feature": "FINGERPRINT_CAPACITOR_SUPPORTED"
+    },
+
+    "FingerprintOptical": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.itemnew.sensor.FingerprintActivity",
+          "tranCmdSupport": true
+        }
+      ],
+      "feature": "FINGERPRINT_OPTICAL_SUPPORTED"
+    },
+
+    "Compass": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.sensor.CompassTestActivity"
+        }
+      ],
+      "feature": "COMPASS_SUPPORTED"
+    },
+
+    "ProximityCali": {
+      "support": true,
+      "activity": [
+        {
+          "platform": "mtk",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.sensor.calibration.PSensorCaliActivityMtk"
+        },
+        {
+          "platform": "sprd",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.sensor.calibration.PSensorCaliActivitySprd",
+          "tranCmdSupport": true
+        }
+      ],
+      "feature": "PROXIMITY_CALI_SUPPORTED"
+    },
+
+    "LightSensorCali": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.itemnew.sensor.calibration.LightSensorCaliActivity",
+          "tranCmdSupport": true
+        }
+      ],
+      "feature": "LIGHT_SENSOR_SUPPORTED"
+    },
+
+    "AccelerateCali": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.itemnew.sensor.calibration.AccelerateCaliActivity",
+          "tranCmdSupport": true
+        }
+      ]
+    },
+
+    "GyroscopeCali": {
+      "support": true,
+      "activity": [
+        {
+          "platform": "mtk",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.sensor.calibration.GyroscopeCaliActivityMtk"
+        },
+        {
+          "platform": "sprd",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.itemnew.sensor.calibration.GyroscopeCaliActivitySprd"
+        }
+      ],
+      "feature": "REAL_GYROSCOPE_SUPPORTED"
+    },
+
+    "Proximity": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.itemnew.sensor.ProximityActivity",
+          "tranCmdSupport": true
+        }
+      ],
+      "feature": "PROXIMITY_SUPPORTED"
+    },
+
+    "ProximityStability": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.itemnew.sensor.ProximityStabilityActivity"
+        }
+      ],
+      "feature": "PROXIMITY_STABILITY_SUPPORTED"
+    },
+
+    "LightSensor": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.sensor.LightSensorTestActivity"
+        }
+      ],
+      "feature": "LIGHT_SENSOR_SUPPORTED"
+    },
+
+    "Gyroscope": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.sensor.GyroscopeSensorTestActivity"
+        }
+      ],
+      "feature": "REAL_GYROSCOPE_SUPPORTED"
+    },
+
+    "Hall": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.sensor.HallTestActivity"
+        }
+      ],
+      "feature": "HALL_SUPPORTED"
+    },
+
+    "Accelerate": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.sensor.AccelerateTestActivity"
+        }
+      ]
+    },
+
+    "--------------4-------------": "-------------------- CHARGE ----------------",
+    "NormalCharge": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.charge.ChargingTestActivity"
+        }
+      ],
+      "feature": "NORMAL_CHARGE_TEST_SUPPORTED"
+    },
+
+    "QuickCharge": {
+      "support": true,
+      "activity": [
+        {
+          "platform": "mtk",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.charge.ChargingTestActivity2"
+        },
+        {
+          "platform": "sprd",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.itemnew.charge.QuickChargeActivity"
+        }
+      ],
+      "feature": "QUICK_CHARGE_TEST_SUPPORTED"
+    },
+
+    "-----TODO": "与otg合并",
+    "ReverseCharge": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.charge.OtgChargeTestActivity"
+        }
+      ],
+      "feature": "REVERSE_CHARGE_SUPPORTED"
+    },
+
+    "Indicator": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.charge.IndicatorLightActivity"
+        }
+      ],
+      "feature": "LIGHT_STRIP_SUPPORTED"
+    },
+
+    "--------------5-------------": "-------------------- CAMERA ----------------",
+    "LiftCameraCali": {
+      "support":true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.camera.LiftCameraCalibrationActivity"
+        }
+      ],
+      "feature": "LIFT_CAMERA_CALI_SUPPORTED"
+    },
+
+    "BackCamera": {
+      "support": true,
+      "activity": [
+        {
+          "platform": "mtk",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.camera.BackcameraTestActivity"
+        },
+        {
+          "platform": "sprd",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.camera.CameraActivitySprd"
+        }
+      ]
+    },
+
+    "BackFourCamera": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.camera.BackcameraFourTestActivity"
+        }
+      ],
+      "feature": "FOUR_CAMERA_SUPPORTED"
+    },
+
+    "CameraOisCali": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.camera.CameraOISCalActivity"
+        }
+      ],
+      "feature": "CAMERA_OIS_SUPPORTED"
+    },
+
+    "DualCamera": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.camera.DualcameraActivity"
+        }
+      ],
+      "feature": "DUAL_CAMERA_TEST_SUPPORTED"
+    },
+
+    "-------": "TODO: 重复，可去除",
+    "AfterSaleDualCamera": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.camera.DualcameraActivity"
+        }
+      ],
+      "feature": "DUAL_CAMERA_TEST_SUPPORTED"
+    },
+
+    "OpticalZoomCali": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.camera.DualcameraActivity",
+          "extra": {
+            "opticalZoom": "cal"
+          }
+        }
+      ],
+      "feature": "DUAL_CAMERA_MEGVII_SUPPORTED"
+    },
+
+    "CameraSatCali": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.camera.DualcameraActivity",
+          "extra": {
+            "cameraSAT": "cal"
+          }
+        }
+      ],
+      "feature": "CAMERA_SAT_SUPPORTED"
+    },
+
+    "--------------6-------------": "-------------------- FLASHLIGHT ----------------",
+    "Torch": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.camera.TorchTestActivity"
+        }
+      ]
+    },
+
+    "FlashCali": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.camera.FlashCalibActivity"
+        }
+      ],
+      "feature": "FLASH_CALI_SUPPORTED"
+    },
+
+    "--------------7-------------": "-------------------- WCN ----------------",
+    "Bluetooth": {
+      "support": true,
+      "backAutoTest": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.wcn.BluetoothTestActivity"
+        }
+      ]
+    },
+
+    "NFC": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.nfc.NfcTestActivity"
+        }
+      ],
+      "feature": "NFC_SUPPORTED"
+    },
+
+    "NfcSimulator": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.nfc.NfcMulatorTestActivity"
+        }
+      ],
+      "feature": "NFC_SUPPORTED"
+    },
+
+    "GPS": {
+      "support": true,
+      "backAutoTest": true,
+      "activity": [
+        {
+          "platform": "mtk",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.wcn.GpsTestActivityMtk"
+        },
+        {
+          "platform": "sprd",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.wcn.GpsTestActivitySprd"
+        }
+      ],
+      "feature": "GPS_SUPPORTED"
+    },
+
+    "Wifi": {
+      "support": true,
+      "backAutoTest": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.wcn.WifiTestActivity"
+        }
+      ]
+    },
+
+    "--------------8-------------": "-------------------- TELEPHONY ----------------",
+    "SimCard": {
+      "support": true,
+      "backAutoTest": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.network.SimTestActivity"
+        }
+      ]
+    },
+
+    "--------------9-------------": "-------------------- XPEN ----------------",
+    "XpenPlug": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.xpen.XpenPlugActivity"
+        }
+      ],
+      "feature": "XPEN_SUPPORTED"
+    },
+
+    "XpenTouch": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.xpen.XpenTouchTestActivity"
+        }
+      ],
+      "feature": "XPEN_SUPPORTED"
+    },
+
+    "XpenKeypad": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.xpen.XpenKeyTestActivity"
+        }
+      ],
+      "feature": "XPEN_SUPPORTED"
+    },
+
+    "XpenPressure": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.xpen.XpenPressureActivity"
+        }
+      ],
+      "feature": "XPEN_SUPPORTED"
+    },
+
+    "XpenSuspension": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.xpen.XpenSuspensionActivity"
+        }
+      ],
+      "feature": "XPEN_SUPPORTED"
+    },
+
+
+    "--------------10-------------": "-------------------- STORAGE ----------------",
+    "SdCard": {
+      "support": true,
+      "backAutoTest": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.storage.SdcardTestActivity"
+        }
+      ]
+    },
+
+    "OTG": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.charge.OtgTestActivity"
+        }
+      ],
+      "feature": "OTG_SUPPORTED"
+    },
+
+    "--------------11-------------": "-------------------- OTHER ----------------",
+    "Keypad": {
+      "support":true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.KeyTestActivity"
+        }
+      ]
+    },
+
+    "FM": {
+      "support": true,
+      "activity": [
+        {
+          "platform": "mtk",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.midtest.fmradio.FmMainActivity"
+        },
+        {
+          "platform": "qcom",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.fm.BQFmTestActivity"
+        },
+        {
+          "platform": "sprd",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.network.FmMainActivitySprd",
+          "tranCmdSupport": true
+        }
+      ],
+      "feature": "FM_SUPPORTED"
+    },
+
+    "FillLight": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.display.FillLightActivity"
+        }
+      ],
+      "feature": "FILL_LIGHT_SUPPORTED"
+    },
+
+    "FallTest": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.sensor.FallTestActivity"
+        }
+      ],
+      "feature": "LIFT_CAMERA_CALI_SUPPORTED"
+    },
+
+    "Vibrator": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.MotorTestActivity"
+        }
+      ]
+    },
+
+    "LaserCali": {
+      "support": true,
+      "activity": [
+        {
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.item.sensor.calibration.LaserCalibrationActivity"
+        }
+      ],
+      "feature": "LOW_LASER_CALI_SUPPORTED"
+    }
+  }
+}

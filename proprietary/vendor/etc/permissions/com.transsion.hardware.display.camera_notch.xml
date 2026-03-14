@@ -1,0 +1,3 @@
+<permissions>
+    <feature name="com.transsion.hardware.display.camera_notch" />
+</permissions>

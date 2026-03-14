@@ -1,0 +1,241 @@
+{
+
+  "allNeedParseNvConfig": [
+    "flagNvConfig",
+    "infoNvConfig",
+    "itemResultNvConfig"
+  ],
+
+  "flagNvConfig": {
+    "commonConfig": {
+      "base": "769*1024",
+      "size": 1
+    },
+    "factoryModeFlag": {
+      "offset": 0
+    },
+    "restoreFactorySettingFlag": {
+      "offset": 4
+    },
+    "autoPowerOffFlag": {
+      "offset": 5
+    },
+    "skipOOBEFlag": {
+      "offset": 6
+    },
+    "demoModeFlag": {
+      "offset": 10
+    },
+    "startAgingFlag": {
+      "offset": 11
+    },
+    "tappingWakeFlag": {
+      "offset": 12
+    },
+    "airplaneModeFlag": {
+      "offset": 168
+    }
+  },
+
+  "infoNvConfig": {
+    "bomInfo": {
+      "base": "769*1024",
+      "offset": 128,
+      "size": 32
+    }
+  },
+
+  "itemResultNvConfig": {
+
+    "note": "commonConfig也是一个NvData对象，持有当前config中所有nv的共同数据，nv相同key的配置会覆盖common",
+    "commonConfig": {
+      "base": "result_table",
+      "size": 1
+    },
+
+    "TotalResult": {
+      "offset": 0
+    },
+    "BackLight": {
+      "offset": 1
+    },
+    "Color": {
+      "offset": 2
+    },
+    "Keypad": {
+      "offset": 3
+    },
+    "Mic": {
+      "offset": 4
+    },
+    "BackCamera": {
+      "offset": 5
+    },
+    "Vibrator": {
+      "offset": 6
+    },
+    "TouchScreen": {
+      "offset": 7
+    },
+    "TwoPointer": {
+      "offset": 9
+    },
+    "Accelerate": {
+      "offset": 10
+    },
+    "Proximity": {
+      "offset": 11
+    },
+    "LightSensor": {
+      "offset": 12
+    },
+    "Compass": {
+      "offset": 13
+    },
+    "NormalCharge": {
+      "offset": 14
+    },
+    "QuickCharge": {
+      "offset": 14
+    },
+    "Headset": {
+      "offset": 15
+    },
+    "ViceMic": {
+      "offset": 16
+    },
+    "FM": {
+      "offset": 17
+    },
+    "Bluetooth": {
+      "offset": 18
+    },
+    "Wifi": {
+      "offset": 19
+    },
+    "SdCard": {
+      "offset": 20
+    },
+    "Torch": {
+      "offset": 21
+    },
+    "GammaTestActivity": {
+      "offset": 23
+    },
+    "Hall": {
+      "offset": 24
+    },
+    "Gyroscope": {
+      "offset": 25
+    },
+    "OTG": {
+      "offset": 26
+    },
+    "SimCard": {
+      "offset": 27
+    },
+    "FlickerTestActivity": {
+      "offset": 31
+    },
+    "DualCamera": {
+      "offset": 36
+    },
+    "AfterSaleDualCamera": {
+      "offset": 37
+    },
+    "OpticalZoomCali": {
+      "offset": 38
+    },
+    "Fingerprint": {
+      "offset": 39
+    },
+    "FingerprintOptical": {
+      "offset": 39
+    },
+    "Indicator": {
+      "offset": 42
+    },
+    "FillLight": {
+      "offset": 43
+    },
+    "Speaker": {
+      "offset": 44
+    },
+    "Receiver": {
+      "offset": 45
+    },
+    "GPS": {
+      "offset": 46
+    },
+    "XpenPlug": {
+      "offset": 47
+    },
+    "XpenTouch": {
+      "offset": 48,
+      "size": 1
+    },
+    "XpenKeypad": {
+      "offset": 49
+    },
+    "XpenPressure": {
+      "offset": 50
+    },
+    "XpenSuspension": {
+      "offset": 51
+    },
+    "ProximityCali": {
+      "offset": 52
+    },
+    "BackFourCamera": {
+      "offset": 53
+    },
+    "AccelerateCali": {
+      "offset": 54
+    },
+    "LightSensorCali": {
+      "offset": 55
+    },
+    "LiftCameraCali": {
+      "offset": 56
+    },
+    "FallTest": {
+      "offset": 57
+    },
+    "GyroscopeCali": {
+      "offset": 58
+    },
+    "LaserCali": {
+      "offset": 59
+    },
+    "audioResult": {
+      "offset": 60
+    },
+    "clearPaResult": {
+      "offset": 61
+    },
+    "CameraSatCali": {
+      "offset": 62
+    },
+    "CameraOisCali": {
+      "offset": 63
+    },
+    "FlashCali": {
+      "offset": 64
+    },
+    "NFC": {
+      "offset": 65
+    },
+    "NfcSimulator": {
+      "offset": 66
+    },
+    "autoMmiResult": {
+      "offset": 70
+    },
+    "autoMmiFlashFlag": {
+      "offset": 71
+    },
+    "ProximityStability": {
+      "offset": 72
+    }
+  }
+}

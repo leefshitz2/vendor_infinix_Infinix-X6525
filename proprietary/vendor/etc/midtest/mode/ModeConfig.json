@@ -1,0 +1,232 @@
+{
+
+  "ModeConfig": [
+    {
+      "modeName": "MMI",
+      "modeCode": 1,
+      "configFile": "MMI.json",
+      "overrides": [
+        {
+          "when": "saveResult",
+          "banModes": [4, 5]
+        }
+      ],
+      "entrance": [
+        {
+          "secretCode": "80",
+          "startType": "activity",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.MainActivity",
+          "extra": {
+            "StartFrom": "Contacts",
+            "needAte": true
+          }
+        },
+        {
+          "secretCode": "808080808080",
+          "startType": "activity",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.MainActivity",
+          "extra": {
+            "StartFrom": "Contacts",
+            "needAte": false
+          }
+        }
+      ]
+    },
+
+    {
+      "modeName": "MMI2",
+      "modeCode": 2,
+      "configFile": "MMI2.json",
+      "overrides": [
+        {
+          "when": "saveResult",
+          "banModes": [4, 5]
+        }
+      ],
+      "entrance": [
+        {
+          "secretCode": "85",
+          "startType": "activity",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.MainActivity",
+          "extra": {
+            "StartFrom": "Contacts",
+            "needAte": true
+          }
+        },
+        {
+          "secretCode": "858585858585",
+          "startType": "activity",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.MainActivity",
+          "extra": {
+            "StartFrom": "Contacts",
+            "needAte": false
+          }
+        }
+      ]
+    },
+
+    {
+      "modeName": "AfterSale",
+      "modeCode": 3,
+      "configFile": "AfterSale.json",
+      "singleReport": true,
+      "entrance": [
+        {
+          "secretCode": "90",
+          "startType": "activity",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.MainActivity",
+          "extra": {
+            "StartFrom": "Contacts",
+            "needAte": true
+          }
+        },
+        {
+          "secretCode": "909090909090",
+          "startType": "activity",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.MainActivity",
+          "extra": {
+            "StartFrom": "Contacts",
+            "needAte": false
+          }
+        }
+      ]
+    },
+
+    {
+      "modeName": "QT",
+      "modeCode": 4,
+      "configFile": "QT.json",
+      "overrides": [
+        {
+          "when": "saveResult",
+          "banModes": [1, 2]
+        }
+      ],
+      "entrance": [
+        {
+          "secretCode": "86",
+          "startType": "activity",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.MainActivity",
+          "extra": {
+            "StartFrom": "Contacts",
+            "needAte": true
+          }
+        },
+        {
+          "secretCode": "868686868686",
+          "startType": "activity",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.MainActivity",
+          "extra": {
+            "StartFrom": "Contacts",
+            "needAte": false
+          }
+        }
+      ]
+    },
+
+    {
+      "modeName": "QT2",
+      "modeCode": 5,
+      "configFile": "QT2.json",
+      "overrides": [
+        {
+          "when": "saveResult",
+          "banModes": [1, 2]
+        }
+      ],
+      "entrance": [
+        {
+          "secretCode": "87",
+          "startType": "activity",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.MainActivity",
+          "extra": {
+            "StartFrom": "Contacts",
+            "needAte": true
+          }
+        },
+        {
+          "secretCode": "878787878787",
+          "startType": "activity",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.MainActivity",
+          "extra": {
+            "StartFrom": "Contacts",
+            "needAte": false
+          }
+        }
+      ]
+    },
+
+    {
+      "modeName": "Half",
+      "modeCode": 6,
+      "configFile": "Half.json",
+      "singleReport": true,
+      "entrance": [
+        {
+          "secretCode": "75",
+          "startType": "activity",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.MainActivity",
+          "extra": {
+            "StartFrom": "Contacts",
+            "needAte": true
+          }
+        },
+        {
+          "secretCode": "757575757575",
+          "startType": "activity",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.MainActivity",
+          "extra": {
+            "StartFrom": "Contacts",
+            "needAte": false
+          }
+        }
+      ]
+    },
+
+    {
+      "modeName": "AllItemDebug",
+      "modeCode": 811,
+      "configFile": "AllItemDebug.json",
+      "singleReport": true,
+      "entrance": [
+        {
+          "secretCode": "811",
+          "startType": "activity",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.entrance.handletest.HandleActivity"
+        }
+      ]
+    },
+
+    {
+      "modeName": "Hardware88",
+      "modeCode": 88,
+      "configFile": "null",
+      "singleReport": true,
+      "entrance": [
+        {
+          "secretCode": "88",
+          "startType": "activity",
+          "targetPackage": "com.reallytek.wg",
+          "targetClass": "com.reallytek.wg.entrance.LCMtestActivity",
+          "extra": {
+            "StartFrom": "Contacts",
+            "needAte": false
+          }
+        }
+      ]
+    }
+  ]
+}

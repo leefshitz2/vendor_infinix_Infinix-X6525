@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <add-resource name="virtual_spn_conf_by_efgid1" type="array"/>
+    <string-array name="virtual_spn_conf_by_efgid1">
+        <item>2343040=Virgin</item>
+        <item>208104C=LA POSTE MOBILE</item>
+        <item>22250F003=ILIAD</item>
+        <item>2142244474553=Digi.Mobil</item>
+        <item>2320770=HoT</item>
+        <item>2320772=HoT</item>
+        <item>2320774=HoT</item>
+        <item>2320775=HoT</item>
+        <item>25020FA3207FFFFFFFFFFFFFF=SberMobile</item>
+    </string-array>
+</resources>

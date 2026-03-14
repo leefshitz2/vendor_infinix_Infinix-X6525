@@ -1,0 +1,256 @@
+{
+
+  "itemConfig":[
+    {
+      "name": "ProximityCali",
+      "support": true,
+      "group": "only_cali"
+    },
+    {
+      "name": "LightSensorCali",
+      "support": true,
+      "group": "only_cali"
+    },
+    {
+      "name": "AccelerateCali",
+      "support": true,
+      "group": "only_cali"
+    },
+    {
+      "name": "GyroscopeCali",
+      "support": true,
+      "group": "only_cali"
+    },
+    {
+      "name": "CameraOisCali",
+      "support": true
+    },
+    {
+      "name": "NFC",
+      "support": true
+    },
+    {
+      "name": "Color",
+      "support": true,
+      "params": {
+        "delayTime": 1000
+      }
+    },
+    {
+      "name": "DualCamera",
+      "support": true
+    },
+    {
+      "name": "FlashCali",
+      "support": true,
+      "group": "only_cali"
+    },
+    {
+      "name": "BackLight",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "Mic",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "Speaker",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "LiftCameraCali",
+      "support": true,
+      "optional": true,
+      "group": "only_cali"
+    },
+    {
+      "name": "BackCamera",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "BackFourCamera",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "Receiver",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "TouchScreen",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "Torch",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "Compass",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "Proximity",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "LightSensor",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "Vibrator",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "Accelerate",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "Gyroscope",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "Fingerprint",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "Keypad",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "TwoPointer",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "SdCard",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "SimCard",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "NormalCharge",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "QuickCharge",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "Headset",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "FM",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "Bluetooth",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "Wifi",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "OTG",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "FillLight",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "XpenPlug",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "XpenTouch",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "XpenKeypad",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "XpenPressure",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "XpenSuspension",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "FallTest",
+      "support": true,
+      "optional": true
+    },
+
+    {
+      "name": "Hall",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "GPS",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "Indicator",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "OpticalZoomCali",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "LaserCali",
+      "support": true,
+      "optional": true,
+      "group": "only_cali"
+    },
+    {
+      "name": "CameraSatCali",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "FingerprintOptical",
+      "support": true
+    }
+  ]
+}

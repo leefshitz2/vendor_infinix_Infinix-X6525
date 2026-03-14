@@ -1,0 +1,72 @@
+{
+  "uiCommonParams": {
+
+  },
+
+  "itemCommonParams":{
+
+    "BackLight": {
+      "lightOrder255": [
+        0,
+        82,
+        255
+      ],
+      "lightOrder4095": [
+        0,
+        1365,
+        4095
+      ],
+      "delayTime": 1000,
+      "repeatTimes": {
+        "canPass": 2,
+        "total": 4
+      }
+    },
+
+    "Color": {
+      "colorOrder": [
+        "red",
+        "green",
+        "blue",
+        "picture",
+        "white",
+        "gradient_gray",
+        "black"
+      ],
+      "delayTime": 1000,
+      "autoSwitch": false
+    },
+
+    "Speaker": {
+      "volume": 100,
+      "musicFiles": [
+        "_1",
+        "_2",
+        "_3",
+        "_4"
+      ]
+    },
+
+    "Receiver": {
+      "volume": 100,
+      "musicFiles": [
+        "_1",
+        "_2",
+        "_3",
+        "_4"
+      ]
+    },
+
+    "AccelerateCali": {
+      "caliDataRange": {
+        "sh3001": 0.8,
+        "other": 0.2
+      }
+    },
+
+    "GyroscopeCali": {
+      "valueMax": 0.4,
+      "varianceMax": 0.05
+    }
+  }
+}

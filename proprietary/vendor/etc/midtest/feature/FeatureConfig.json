@@ -1,0 +1,11 @@
+{
+    "featureManual": [],
+    "featureAuto": [
+        "com.tran.mid.sensor.virtual.gyroscope.support",
+        "com.tran.mid.storage.external.sdcard.support",
+        "com.tran.mid.gps.support"
+    ],
+    "params": {
+        "camera_front_flash_type": "flash"
+    }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <add-resource name="virtual_spn_conf_by_imsi" type="array"/>
+    <string-array name="virtual_spn_conf_by_imsi">
+        <item>2080120801xxx67xxxxx=Virgin</item>
+        <item>2320723207718=HoT</item>
+        <item>232072320776=HoT</item>
+        <item>2320723207799=HoT</item>
+        <item>4186641866xxx82xxxxx=Fastlink</item>
+        <item>4186641866xxx83xxxxx=Fastlink</item>
+        <item>4186641866xxx36xxxxx=Newroz4G</item>
+        <item>4188241882xxx40xxxxx=Tishknet</item>
+        <item>4240342403022=Virgin Mobile</item>
+    </string-array>
+</resources>

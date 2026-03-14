@@ -1,0 +1,197 @@
+{
+
+  "content": [
+    "===groupConfig: jump_if_pass为true时，自动测试测到此组的item，如果pass则跳过",
+    "===itemConfig: item未配置group的项默认分组为第一组",
+    "===params中的参数会覆盖itemCommonParams的参数"
+  ],
+
+  "groupConfig": {
+    "support": false,
+    "group": [
+      {
+        "name": "default",
+        "style": "grid"
+      }
+    ]
+  },
+
+  "itemConfig":[
+    {
+      "name": "BackLight",
+      "support": true
+    },
+    {
+      "name": "Color",
+      "support": true,
+      "params": {}
+    },
+    {
+      "name": "Keypad",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "Mic",
+      "support": true
+    },
+    {
+      "name": "Speaker",
+      "support": true
+    },
+    {
+      "name": "BackCamera",
+      "support": true
+    },
+    {
+      "name": "BackFourCamera",
+      "support": true
+    },
+    {
+      "name": "Receiver",
+      "support": true
+    },
+    {
+      "name": "TouchScreen",
+      "support": true
+    },
+    {
+      "name": "TwoPointer",
+      "support": true
+    },
+    {
+      "name": "NormalCharge",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "QuickCharge",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "Headset",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "FM",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "Bluetooth",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "Wifi",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "Torch",
+      "support": true
+    },
+    {
+      "name": "Fingerprint",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "SdCard",
+      "support": true
+    },
+    {
+      "name": "SimCard",
+      "support": true
+    },
+    {
+      "name": "Compass",
+      "support": true
+    },
+    {
+      "name": "ReverseCharge",
+      "support": true
+    },
+    {
+      "name": "OTG",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "FillLight",
+      "support": true
+    },
+    {
+      "name": "XpenPlug",
+      "support": true
+    },
+    {
+      "name": "XpenTouch",
+      "support": true
+    },
+    {
+      "name": "XpenKeypad",
+      "support": true
+    },
+    {
+      "name": "XpenPressure",
+      "support": true
+    },
+    {
+      "name": "XpenSuspension",
+      "support": true
+    },
+    {
+      "name": "Proximity",
+      "support": true
+    },
+    {
+      "name": "ProximityStability",
+      "support": true
+    },
+    {
+      "name": "LightSensor",
+      "support": true
+    },
+    {
+      "name": "Vibrator",
+      "support": true
+    },
+    {
+      "name": "Accelerate",
+      "support": true
+    },
+    {
+      "name": "Gyroscope",
+      "support": true
+    },
+    {
+      "name": "Hall",
+      "support": true
+    },
+    {
+      "name": "GPS",
+      "support": true,
+      "optional": true
+    },
+    {
+      "name": "Indicator",
+      "support": true
+    },
+    {
+      "name": "NfcSimulator",
+      "support": true
+    },
+    {
+      "name": "FlashCali",
+      "support": true
+    },
+    {
+      "name": "FingerprintOptical",
+      "support": true,
+      "optional": true
+    }
+  ]
+}
